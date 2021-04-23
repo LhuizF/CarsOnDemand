@@ -1,41 +1,50 @@
-body{
+@font-face {
+    font-family: Bicubik;
+    src: url(../component/Bicubik.OTF);
+}
+
+body {
     margin: 0px;
-    background-color: #AFB1B5;
+    background-color: #eaeaea;
 }
 
 .header{
     background-color: #141414;
     width: 100%;
-    height: 112px;
-    border-bottom: 10px solid #ff0000;
+    height: 1000px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+}
+.logo-btns-container{
+    display: flex;
+    justify-content: space-around;
 }
 
-.logo{
-    margin: 5px;
-    width: 100px;
-    margin-left: 20vw;
+.logo {
     cursor: pointer;
+    width: 100px;
+    margin-top: 7px;
 }
-.menu-btn{
-    margin-right: 10vw;
-    color: #fff;
-    padding: 5px;
+.menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 30px;
 }
-i{
+i {
     padding: 5px;
 }
-.btn{
+.btn {
+    margin-left: 46px;
     cursor: pointer;
-    margin-left: 40px;
+    color: #fff;
 }
-.btn:hover{
+.btn:hover {
     color: #ff0000;
 }
-.btn-cadastro{
+.btn-red {
+    color: #fff;
     cursor: pointer;
     margin-left: 40px;
     padding: 4px 10px 5px 4px;
@@ -43,6 +52,24 @@ i{
     border-radius: 50px;
 }
 
-.btn-cadastro:hover{
+.btn-red:hover {
     background-color: #ff0000;
+}
+.audi-title {
+    display: flex;
+    /* margin: 267px 10vw 0px 10vw; */
+}
+.audia8 {
+    transform: scaleX(-1);
+    width: 46vw;
+    max-width: 1000px;
+    margin: 267px 0px 0px 10vw;
+}
+.title {
+    font-family: Bicubik;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    align-content: flex-start;
+    margin: 100px 10vw 0px 0px;
 }
