@@ -21,5 +21,19 @@
 .showcase-cars{
     background-color: #141414;
     width: 100%;
-    height: 690px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center{
+    position: relative;
+}
+.cars{
+    display: flex;
+    cursor: pointer;
+    width: 50vw;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
 }

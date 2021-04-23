@@ -38,7 +38,7 @@ i{
 .btn-cadastro{
     cursor: pointer;
     margin-left: 40px;
-    padding: 4px 6px;
+    padding: 4px 10px 5px 4px;
     border: #ff0000 solid 3px;
     border-radius: 50px;
 }
