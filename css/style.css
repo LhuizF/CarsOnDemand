@@ -55,6 +55,11 @@ i {
 .btn-red:hover {
     background-color: #ff0000;
 }
+
+a{
+    text-decoration:none
+}
+
 .audi-title {
     display: flex;
     /* margin: 267px 10vw 0px 10vw; */
