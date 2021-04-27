@@ -1,9 +1,8 @@
-
-.cars{
+.showcase-cars{
     display: flex;
-    cursor: pointer;
-    width: 50vw;
-    max-width: 1000px;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+}
+.cars{
+    height: 600px;
+    margin: 5px;
 }
