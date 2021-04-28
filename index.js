@@ -7,3 +7,4 @@ function start() {
     }
 }
 start()
+//osidjaidioaisdio
