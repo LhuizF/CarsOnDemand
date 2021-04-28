@@ -3,7 +3,7 @@
     src: url(../component/Bicubik.OTF);
 }
 
-.main-container {
+main {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,19 +11,20 @@
     height: 100vh;
 }
 
-.text-login {
+h1{
     font-family: bicubik;
     color: #fff;
     font-size: 80px;
     display: flex;
     justify-content: center;
     margin-top: 230px;
+    margin-bottom: 20px;
 }
 input {
     display: flex;
     width: 528px;
     height: 48px;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: rgba(255, 0, 0, 0.363);
     color: #fff;
     font-size: 25px;
@@ -31,18 +32,9 @@ input {
 .btn-container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 30px;
-}
-.btn-login {
-    color: #fff;
-    cursor: pointer;
-    padding: 4px 10px 5px 4px;
-    border: #ff0000 solid 3px;
-    border-radius: 50px;
-    font-size: 20px;
-    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 20px;
 }
 
-.btn-login:hover {
-    background-color: #ff0000;
+button{
+    background-color: rgba(0, 0, 0, 0);
 }

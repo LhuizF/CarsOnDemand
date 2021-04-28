@@ -42,7 +42,7 @@ i {
 .btn:hover {
     color: #ff0000;
 }
-.btn-red {
+.btn-red, .btn-login  {
     color: #fff;
     cursor: pointer;
     margin-left: 40px;
@@ -51,9 +51,11 @@ i {
     align-items: center;
     display: flex;
     padding: 4px 8px 4px 0px;
+    font-size: 20px;
+    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.btn-red:hover {
+.btn-red:hover, .btn-login:hover{
     background-color: #ff0000;
 }
 
