@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Bicubik;
+    src: url(../component/Bicubik.OTF);
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: #141414;
+}
+.cadastre-se-container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 350px;
+}
+.text-cadastre-se {
+    font-family: bicubik;
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-dados-pessoais {
+    display: flex;
+    font-family: bicubik;
+    color: #f00;
+    font-size: 25px;
+    
+    margin-top: 50px;
+    height: 1px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.btn-finalizar {
+    color: #fff;
+    cursor: pointer;
+    padding: 4px 10px 5px 4px;
+    border: #f00 solid 3px;
+    border-radius: 50px;
+}
+
+.btn-finalizar:hover {
+    background-color: #f00;
+}
+
+.nome {
+    width: 1000px;
+    background-color: #fff;
+}
+
+.email {
+    width: 1000px;
+    background-color: #fff;
+}
+
+.senha {
+    width: 490px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.confirma-senha {
+    width: 490px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.cpf {
+    width: 490px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+
+.cnh {
+    width: 490px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.data-nascimento {
+    width: 490px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+
+.telefone {
+    width: 490px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.país {
+    margin-top: 90px;
+    margin-right: 10px;
+    width: 490px;
+    background-color: #fff;
+    float: left;
+    
+}
+
+.cep {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 490px;
+    background-color: #fff;
+}
+
+.estado {
+    width: 490px;
+    margin-right: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+.cidade {
+    margin-left: 10px;
+    width: 490px;
+    background-color: #fff;
+}
+
+.bairro {
+    width: 350px;
+    margin-right: 5px;
+    background-color: #fff;
+    float: left;
+}
+
+.endereço {
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+.número {
+    width: 260px;
+
+    background-color: #fff;
+}

@@ -7,6 +7,3 @@ function start() {
     }
 }
 start()
-//osidjaidioaisdio
-
-djdmiajwdwd
