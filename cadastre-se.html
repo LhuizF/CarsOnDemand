@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/input.css">
-    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous"/>
@@ -16,16 +15,19 @@
 
 <body>
     <header class="header">
+
         <div class="logo-btns-container">
             <a href="./index.html"><img class="logo" id="logo" src="./component/Logo.png" title="Início"></a>
-            <div class="menu-btn">
-                <a class="btn" id="carros" title="Carros"><i class="fas far-car"></i>Carros</a>
-                <a class="btn" id="info" title="Informações"><i class="fas fa-info"></i>Informações</a>
-                <a class="btn" id="Login" title="Login" href="./login.html"><i class="fas fa-user"></i>Login</a>
-                <a class="btn-red" id="Cadastre-se" title="Cadastre-se"><i class="fas fa-registered"></i>Cadastre-se</a>
-            </div>
-        </div>
 
+            <nav class="menu-btn">
+                <a class="btn" Id="carros" title="Carros"><i class="fas fa-car"></i>Carros</a>
+                <a class="btn" Id="info" title="Informações"><i class="fas fa-info"></i>Informações</a>
+                <a class="btn" Id="Login" title="Login" href="./login.html"><i class="fas fa-user"></i>Login</a>
+                <a class="btn-red" Id="Cadastre-se" title="Cadastre-se" href="./cadastre-se.html"><i
+                        class="far fa-arrow-alt-circle-right"></i>Cadastre-se</a>
+            </nav>
+        </div>
+    </header>
         <div class="cadastre-se-container">
             <div>
                 <span class="text-cadastre-se">Cadastre-se</span>
@@ -51,6 +53,6 @@
                 </div>
             </div>
         </div>
-    </header>
+    
 </body>
 </html>
