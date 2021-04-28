@@ -2,16 +2,13 @@
     font-family: Bicubik;
     src: url(../component/Bicubik.OTF);
 }
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-}
-.login-container {
+
+.main-container {
     display: flex;
-    justify-content: center;
-    height: 80vh;
     align-items: center;
     flex-direction: column;
+    background-color: #181818;
+    height: 92.6vh;
 }
 
 .text-login {
@@ -20,6 +17,7 @@ body{
     font-size: 80px;
     display: flex;
     justify-content: center;
+    margin-top: 230px;
 }
 input {
     display: flex;
@@ -28,9 +26,9 @@ input {
     margin-top: 40px;
     background-color: rgba(255, 0, 0, 0.363);
     color: #fff;
-    font-size: inherit;
+    font-size: 25px;
 }
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: flex-end;
     margin-top: 30px;
@@ -41,6 +39,8 @@ input {
     padding: 4px 10px 5px 4px;
     border: #ff0000 solid 3px;
     border-radius: 50px;
+    font-size: 20px;
+    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .btn-login:hover {
