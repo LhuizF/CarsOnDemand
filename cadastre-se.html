@@ -15,41 +15,45 @@
 
 <body>
     <header class="header">
+
         <div class="logo-btns-container">
             <a href="./index.html"><img class="logo" id="logo" src="./component/Logo.png" title="Início"></a>
-            <div class="menu-btn">
-                <a class="btn" id="carros" title="Carros"><i class="fas far-car"></i>Carros</a>
-                <a class="btn" id="info" title="Informações"><i class="fas fa-info"></i>Informações</a>
-                <a class="btn" id="Login" title="Login" href="./login.html"><i class="fas fa-user"></i>Login</a>
-                <a class="btn-red" id="Cadastre-se" title="Cadastre-se"><i class="fas fa-registered"></i>Cadastre-se</a>
-            </div>
-        </div>
 
+            <nav class="menu-btn">
+                <a class="btn" Id="carros" title="Carros"><i class="fas fa-car"></i>Carros</a>
+                <a class="btn" Id="info" title="Informações"><i class="fas fa-info"></i>Informações</a>
+                <a class="btn" Id="Login" title="Login" href="./login.html"><i class="fas fa-user"></i>Login</a>
+                <a class="btn-red" Id="Cadastre-se" title="Cadastre-se" href="./cadastre-se.html"><i
+                        class="far fa-arrow-alt-circle-right"></i>Cadastre-se</a>
+            </nav>
+        </div>
+    </header>
         <div class="cadastre-se-container">
             <div>
                 <span class="text-cadastre-se">Cadastre-se</span>
                 <span class="text-dados-pessoais">Dados Pessoais</span>
+                <span class="text-endereço">Endereco</span>
                 <input class="nome" type="text" placeholder="Nome">
                 <input class="email" type="text" placeholder="Email">
-                <input class="senha" type="text" placeholder="Senha">
-                <input class="confirma-senha" type="text" placeholder="Confirme a senha">
-                <input class="cpf" type="text" placeholder="CPF">
-                <input class="cnh" type="text" placeholder="CNH">
-                <input class="data-nascimento" type="text" placeholder="Data de nascimento">
+                <input class="senha" type="password" placeholder="Senha">
+                <input class="confirma-senha" type="password" placeholder="Confirme a senha">
+                <input class="cpf" type="number" placeholder="CPF">
+                <input class="cnh" type="number" placeholder="CNH">
+                <input class="data-nascimento" type="date" placeholder="Data de nascimento">
                 <input class="telefone" type="text" placeholder="Telefone">
                 <input class="país" type="text" placeholder="País">
-                <input class="cep" type="text" placeholder="CEP">
+                <input class="cep" type="number" placeholder="CEP">
                 <input class="estado" type="text" placeholder="Estado">
                 <input class="cidade" type="text" placeholder="Cidade">
                 <input class="bairro"type="text" placeholder="Bairro">
                 <input class="endereço" type="text" placeholder="Endereço">
-                <input class="número" type="text" placeholder="Número">
+                <input class="número" type="number" placeholder="Número">
 
                 <div class="btn-container">
-                    <a class="btn-finalizar" title="Finalizar cadastro"><i class="fas fa-registered-in"></i>Finalizar cadastro</a>
+                    <a class="btn-finalizar" title="Finalizar cadastro"><i class="svg-inline--fa fa-check-circle fa-w-16"></i>Finalizar cadastro</a>
                 </div>
             </div>
         </div>
-    </header>
+    
 </body>
 </html>
