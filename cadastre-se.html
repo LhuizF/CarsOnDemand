@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" type="img/png" href="component/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous"/>
@@ -28,29 +29,29 @@
             </nav>
         </div>
     </header>
-        <div class="cadastre-se-container">
+        <form class="cadastre-se-container">
             <div>
                 <span class="text-cadastre-se">Cadastre-se</span>
                 <span class="text-dados-pessoais">Dados Pessoais</span>
                 <span class="text-endereço">Endereco</span>
-                <input class="nome" type="text" placeholder="Nome">
-                <input class="email" type="text" placeholder="Email">
-                <input class="senha" type="password" placeholder="Senha">
-                <input class="confirma-senha" type="password" placeholder="Confirme a senha">
-                <input class="cpf" type="number" placeholder="CPF">
-                <input class="cnh" type="number" placeholder="CNH">
-                <input class="data-nascimento" type="date" placeholder="Data de nascimento">
-                <input class="telefone" type="text" placeholder="Telefone">
-                <input class="país" type="text" placeholder="País">
-                <input class="cep" type="number" placeholder="CEP">
-                <input class="estado" type="text" placeholder="Estado">
-                <input class="cidade" type="text" placeholder="Cidade">
-                <input class="bairro"type="text" placeholder="Bairro">
-                <input class="endereço" type="text" placeholder="Endereço">
-                <input class="número" type="number" placeholder="Número">
+                <input class="nome" type="text" placeholder="Nome" required>
+                <input class="email" type="email" placeholder="Email" required>
+                <input class="senha" type="password" placeholder="Senha" required>
+                <input class="confirma-senha" type="password" placeholder="Confirme a senha" required>
+                <input class="cpf" type="number" placeholder="CPF" required>
+                <input class="cnh" type="number" placeholder="CNH" required>
+                <input class="data-nascimento" type="date" placeholder="Data de nascimento" required>
+                <input class="telefone" type="text" placeholder="Telefone" required>
+                <input class="país" type="text" placeholder="País" required>
+                <input class="cep" type="number" placeholder="CEP" required>
+                <input class="estado" type="text" placeholder="Estado" required>
+                <input class="cidade" type="text" placeholder="Cidade" required>
+                <input class="bairro"type="text" placeholder="Bairro" required>
+                <input class="endereço" type="text" placeholder="Endereço" required>
+                <input class="número" type="number" placeholder="Número" required>
 
                 <div class="btn-container">
-                    <a class="btn-finalizar" title="Finalizar cadastro"><i class="svg-inline--fa fa-check-circle fa-w-16"></i>Finalizar cadastro</a>
+                    <button class="btn-finalizar" title="Finalizar cadastro"><i class="fas fa-check-circle"></i>Finalizar Cadastro</a>
                 </div>
             </div>
         </div>
