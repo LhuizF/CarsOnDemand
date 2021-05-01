@@ -2,13 +2,13 @@
     font-family: Bicubik;
     src: url(../component/Bicubik.OTF);
 }
-
+body{
+    background-color: #181818;
+    margin: 0px;
+}
 main {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #181818;
-    height: 100vh;
+    justify-content: center;
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
     font-size: 80px;
     display: flex;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: 190px;
     margin-bottom: 20px;
 }
 
@@ -26,7 +26,8 @@ input {
     width: 528px;
     height: 48px;
     margin-top: 30px;
-    color: #000;
+    background-color:#fff;
+    color: black;
     font-size: 25px;
 }
 .btn-container {

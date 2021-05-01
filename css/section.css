@@ -2,33 +2,37 @@
     font-family: Bicubik;
     src: url(../component/Bicubik.OTF);
 }
+body{
+    margin: 0;
+    background-color: #EAEAEA;
+}
 
-.main-section {
-    display: flex;
-    background-color:#181818;
-    height: 65vh;
-    align-items: center;
-    justify-content: center;
+.main-section{
+    background-color: #181818;
+    height: 500px;
 }
-.audia8 {
-    display: flex;
+.main-section img{
+    width: 35vw;
     transform: scaleX(-1);
-    height: 40vh;   
+    position: relative;
+    top:100px;
+    left: 20vw;
+    min-width: 395px;
 }
-.title {
-    font-family: Bicubik;
-    font-size: 70px;
+
+.main-section h1{
     color: #fff;
-    margin-left: 30px;
-    align-self: flex-start;
+    float: right;
+    font-family: Bicubik;
+    font-size: 3.6vw;
     text-align: center;
-    margin-top: 80px;
+    margin-right: 20vw;
 }
 
 .sub-title{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
     color: #F9243E;
+    margin: 20px;
 }
