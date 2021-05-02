@@ -1,0 +1,7 @@
+terminar home
+organizar os html em uma pasta
+criar html informações e carros
+alterar icons do header
+refaturar
+atualizar os icons das redes sociais 
+mais responsivo AAAAAAAAAAAAAAA
