@@ -5,3 +5,5 @@ alterar icons do header
 refaturar
 atualizar os icons das redes sociais 
 mais responsivo AAAAAAAAAAAAAAA
+centralizar tudo na section3
+adicionar conteudo no footer

@@ -47,10 +47,10 @@
 
             <!-- display carros -->
             <div class="showcase-cars" id="showcase-cars">
-                <button onclick="exibir('prev')">Anterior</button>
-                <img src="" class="idCars" id="car5"> <br> 
-                <button onclick="exibir('next')">Próximo</button>
-                
+                <button onclick="exibir('prev')"><i class="fas fa-arrow-alt-circle-left"></i></button>
+                <img src="" class="cars"> <br>
+                <button onclick="exibir('next')"><i class="fas fa-arrow-alt-circle-right"></i></i></i></button>
+
             </div>
             <span class="name" id="name"></span>
             <!-- Informações sobre sistema de fidelidade -->
@@ -82,18 +82,23 @@
         <!-- Informações sobre redes sociais-->
         <section class="section4">
             <div>
-                <img src="./component/Logo.png" alt="">
-                <p>Siga nossas redes sociais e fique por dentro de dicas, eventos e novidades sobre o mundo automotivo.</p>
-                <a class="facebook"><i class="fab fa-3x fa-facebook-square facebook"></i></a>
-                <a><i class="fab fa-3x fa-instagram instagram"></i></a>
-                <a><i class="fab fa-3x fa-whatsapp whatsapp"></i></a>
+                <img src="./component/Logo.png" alt="" class="logo2">
+                <p>Siga nossas redes sociais e fique por dentro de dicas, eventos e novidades sobre o mundo automotivo.
+                </p>
+                <ul class="iconsSocial">
+                    <li><img src="./component/twitter.png" alt=""></li>
+                    <li><img src="./component/instagram.png" alt="instagram"></li>
+                    <li><img src="./component/facebook.png" alt="Facebook"></li>
+                </ul>
+            </div>
 
             </div>
         </section>
 
         <footer>
-
+            <p>&copy;</p>
         </footer>
+        <div class="zapzap" id="zapzap"></div>
     </main>
     <script src="index.js"></script>
 </body>

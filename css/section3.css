@@ -23,7 +23,7 @@
 }
 
 .section3 a:hover {
-    filter: brightness(150%);
+    filter: brightness(1.3);
     transform: scale(1.1);
 }
 

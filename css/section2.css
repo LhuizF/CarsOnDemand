@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
 }
-#img{
+.cars{
     height: 20vw;
     min-height: 250px;
 }
@@ -38,14 +38,13 @@
 .section2 button{
     cursor: pointer;
     margin: 0 50px;
-    padding: 5px;
-    border:3px solid #F9243E;
-    font-size: 20px;
-    border-radius: 15px;
+    border: none;
+    font-size: 50px;
+    opacity: 0.3;
 }
+
 .section2 button:active{
-    background-color: #F9243E;
-    color: #fff;
+    opacity: 1;
 }
 
 .name{
