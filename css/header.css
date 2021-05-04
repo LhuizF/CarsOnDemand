@@ -1,4 +1,5 @@
 header {
+    position: relative;
     background-color: #181818;
     height: 80px;
 }
@@ -9,6 +10,7 @@ header {
     width: 70px;
     margin-top: 7px;
 }
+
 .menu-btn {
     margin-right: 20vw;
     float: right;
@@ -18,9 +20,11 @@ header {
     font-size: 20px;
     height: 80px;
 }
+
 header i {
     padding: 0px 6px;
 }
+
 .btn {
     display: flex;
     align-items: center;
@@ -29,9 +33,11 @@ header i {
     color: #fff;
     border-left: 3px solid red;
 }
+
 .btn:hover {
     color: #f00;
 }
+
 .btn-red, .btn-login {
     color: #fff;
     cursor: pointer;
@@ -66,34 +72,23 @@ footer{
     height: 50px;
     bottom: 3vh;
     right: 2vw;
-    animation-name: zap;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
     background-image: url(../component/whatsapp.png);
     background-size: 50px;
+    animation: zap 0.5s infinite;
 }
-
 
 @keyframes zap {
     0%{
-        transform: translateX(0px)
-    }
-    25%{
-        transform: translateX(2px)
+        transform: scale(1)
     }
     50%{
-        transform: translateX(0px)
-    }
-    75%{
-        transform: translateX(-2px)
+        transform: scale(1.1)
     }
     100%{
-        transform: translateX(0px)
+        transform: scale(1)
     }
 }
-
 
 .zapzap:hover{
     background-image: url("../component/whatsapp-square-color.png");
 }
-

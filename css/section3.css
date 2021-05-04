@@ -2,9 +2,10 @@
     background-color: #181818;
     padding: 0 20vw;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    z-index: 0;
 }
 
-.section3 div {
+.section3 div{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -33,11 +34,12 @@
     margin-bottom: 0px;
     font-size: 2.5vw;
 }
+
 .section3 div p {
     font-size: 2vw;
     color: #fff;
 }
 
-.app {
+.appImg {
     margin: 40px;
 }

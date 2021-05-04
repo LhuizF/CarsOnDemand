@@ -5,19 +5,23 @@
 body{
     margin: 0;
     background-color: #EAEAEA;
+    overflow-x: hidden;
 }
 
 .section1{
+    position: relative;
     background-color: #181818;
     height: 500px;
+    z-index: 0;
 }
+
 .section1 img{
     width: 35vw;
     transform: scaleX(-1);
     position: relative;
     top:100px;
     left: 20vw;
-    min-width: 395px;
+    min-width: 395px; 
 }
 
 .section1 h1{
