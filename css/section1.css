@@ -9,8 +9,7 @@ body{
 }
 
 .section1{
-    background-image:url("../component/Sem-Título-1.jpg");
-    background-position: inherit;
+    background-image:url("../component/background.jpg");
     width: 100vw;
     height: 500px;
 }
