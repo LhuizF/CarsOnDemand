@@ -21,7 +21,7 @@
 <body>
     <header>
 
-        <a href="./index.html" ><img class="logo"  src="./component/Logo.png" title="Início"></a>
+        <a href="./index.html" class="logo"><img   src="./component/Logo.png" title="Início"></a>
 
         <nav class="menu-btn">
             <a class="btn" Id="carros" title="Carros"><i class="fas fa-car"></i>Carros</a>
@@ -48,9 +48,9 @@
 
             <!-- display carros -->
             <div class="showcase-cars" id="showcase-cars">
-                <button onclick="exibir('prev')"><i class="fas fa-arrow-alt-circle-left"></i></button>
-                <img src="" class="cars"> <br>
-                <button onclick="exibir('next')"><i class="fas fa-arrow-alt-circle-right"></i></i></i></button>
+                <button onclick="exibir('prev')" id="prev-btn" class="btnPrev"><i class="fas fa-arrow-alt-circle-left"></i></button>
+                <img src="" class="cars" id="cars"> <br>
+                <button onclick="exibir('next')" id="next-btn" class="btnNext"><i class="fas fa-arrow-alt-circle-right"></i></i></i></button>
 
             </div>
             <span class="name" id="name"></span>
@@ -87,11 +87,11 @@
         <section class="section4">
 
             <div>
-                <img src="./component/Logo.png" alt="" class="logo2">
+                <img src="./component/Logo.png" alt="" class="logo-bottom">
                 <p>Siga nossas redes sociais e fique por dentro de dicas, eventos e novidades sobre o mundo automotivo.
                 </p>
                 <ul class="iconsSocial">
-                    <li><img src="./component/twitter.png" alt=""></li>
+                    <li><img src="./component/twitter.png" alt="twitter"></li>
                     <li><img src="./component/instagram.png" alt="instagram"></li>
                     <li><img src="./component/facebook.png" alt="Facebook"></li>
                 </ul>

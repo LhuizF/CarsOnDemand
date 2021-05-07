@@ -1,3 +1,8 @@
+const prevBtn = document.getElementById("prev-btn");
+const nextbtn = document.getElementById("next-btn");
+const mainCar = document.getElementById("cars");
+
+let autoTime;
 let cars = []
 
 async function Api(){
@@ -5,12 +10,11 @@ async function Api(){
     const Retorn = await fetch(apiCars);
     cars = await Retorn.json();
     display();
-}
+};
 
 let outputImg = document.querySelector(".section2 div img");
 let outputNome = document.getElementById("name");
 let carNumber = 0;
-
 
 function exibir(ord) {
     switch (ord) {
@@ -21,8 +25,7 @@ function exibir(ord) {
             carNumber--; break;
     }
     display();
-}
-
+};
 
 function display(){
     imgNow = cars[carNumber].img
@@ -30,12 +33,26 @@ function display(){
 
     nameNow = cars[carNumber].nome
     outputNome.textContent = nameNow
-}
+};
 
-setInterval(function auto() {
-    carNumber++
-    if (carNumber == cars.length) {carNumber = 0}
-    display()
-}, 5000)
+function timeInterval(){
+    autoTime = setInterval(function(){
+        exibir("next")
+    }, 2000)
+};
+
+function stopTime(){
+    clearInterval(autoTime)
+};
+
+prevBtn.addEventListener("mouseover", stopTime);
+prevBtn.addEventListener("mouseout", timeInterval);
+
+nextbtn.addEventListener("mouseover", stopTime);
+nextbtn.addEventListener("mouseout", timeInterval);
+
+mainCar.addEventListener("mouseover", stopTime);
+mainCar.addEventListener("mouseout", timeInterval);
 
 Api();
+timeInterval();

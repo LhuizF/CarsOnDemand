@@ -6,6 +6,9 @@ header {
 }
 
 .logo{
+    width: 70px;
+}
+.logo img{
     margin-left: 20vw;
     cursor: pointer;
     width: 70px;
@@ -96,6 +99,7 @@ footer{
     .menu-btn{
         flex-direction: column;
         align-items: flex-start;
+        margin: 10px 15px;
     }
     .btn, .btn-red{
         margin-top: 5px;

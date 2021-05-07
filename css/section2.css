@@ -14,8 +14,13 @@
     align-items: center;
 }
 .cars{
+    cursor: pointer;
     height: 20vw;
     min-height: 250px;
+}
+
+.cars:hover{
+    transform: scale(1.1);
 }
 .text-container{    
     min-width: 500px;
@@ -34,6 +39,7 @@
 }
 
 .section2 button{
+    position: absolute;
     cursor: pointer;
     margin: 0 50px;
     border: none;
@@ -42,13 +48,23 @@
     background-color:transparent;
 }
 
+.btnNext{
+    left: 70vw;
+}
+
+.btnPrev{
+    right: 70vw;
+}
+
+.section2 button:hover{
+    transform: scale(1.15);
+}
+
 .section2 button:active{
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .name{
     padding: 0px;
     font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
