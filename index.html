@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/section2.css">
     <link rel="stylesheet" href="css/section3.css">
     <link rel="stylesheet" href="css/section4.css">
-    <link rel="stylesheet" href="./css/barra.css">
 
     <link rel="icon" type="img/png" href="component/Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -22,7 +21,7 @@
 <body>
     <header>
 
-        <a href="./index.html"><img class="logo" id="logo" src="./component/Logo.png" title="Início"></a>
+        <a href="./index.html" ><img class="logo"  src="./component/Logo.png" title="Início"></a>
 
         <nav class="menu-btn">
             <a class="btn" Id="carros" title="Carros"><i class="fas fa-car"></i>Carros</a>
@@ -40,6 +39,8 @@
         <section class="section1">
             <img src="./component/audi a8.png">
             <h1> Cars<br>On Demand </h1>
+            <!-- <div class="barra barra-1"></div>
+            <div class="barra barra-2"></div> -->
         </section>
 
         <section class="section2">
@@ -68,19 +69,25 @@
         <!-- Informações sobre app-->
         <section class="section3">
 
-            <div>
-                <h2>Conheça também nosso App.</h2>
-                <p>No aplicativo você tem ainda mais facilidade na hora de alugar um dos nossos carros, com apenas
-                    alguns toques na tela você consegue reservar um carro a qualquer hora e de qualquer lugar.</p>
-                <a href="https://www.apple.com/br/app-store" target="_blank"><img
-                        src="./component/disponivel-na-app-store-botao.png" alt=""></a>
-                <a href="https://play.google.com/store/apps" target="_blank"><img
-                        src="./component/disponivel-google-play-badge.png" alt=""></a>
-
+            <div class="app-container">
+                <div class="text-app">
+                    <h2>Conheça também nosso App.</h2>
+                    <p>No aplicativo você tem ainda mais facilidade na hora de alugar um dos nossos carros, com apenas
+                        alguns toques na tela você consegue reservar um carro a qualquer hora e de qualquer lugar.</p>
+                    <a href="https://www.apple.com/br/app-store" target="_blank"><img
+                            src="./component/disponivel-na-app-store-botao.png" alt="" class="imgStore"></a>
+                    <a href="https://play.google.com/store/apps" target="_blank" ><img
+                            src="./component/disponivel-google-play-badge.png" alt="" class="imgStore"></a>
+                </div>
+                <img class="appImg" id="appImg" src="./component/smartphone.png" alt="">
             </div>
-            <img class="appImg" src="./component/smartphone.png" alt="">
+
+
+            <!-- <div class="barra barra-3"></div>
+            <div class="barra barra-4"></div>  -->
 
         </section>
+
         <!-- Informações sobre redes sociais-->
         <section class="section4">
 

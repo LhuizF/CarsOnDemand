@@ -13,6 +13,7 @@
     padding: 10px;
     float: left;
     margin-right: 20px;
+    min-height: 100px;
 }
 
 .section4 p {

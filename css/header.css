@@ -1,10 +1,11 @@
 header {
-    position: relative;
+    display: flex;
     background-color: #181818;
     height: 80px;
+    justify-content: space-between;
 }
 
-.logo {
+.logo{
     margin-left: 20vw;
     cursor: pointer;
     width: 70px;
@@ -13,12 +14,10 @@ header {
 
 .menu-btn {
     margin-right: 20vw;
-    float: right;
     display: flex;
     align-items: center;
     font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 20px;
-    height: 80px;
 }
 
 header i {
@@ -91,4 +90,47 @@ footer{
 
 .zapzap:hover{
     background-image: url("../component/whatsapp-square-color.png");
+}
+
+.barra{
+    position: absolute;
+    width: 200vw;
+    height: 8vw;
+    min-height: 90px;
+    background-color:rgba(255, 22, 22, 0.25);
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+.barra-1{
+    right: -470px;
+    top: 141.03px;
+}
+
+.barra-2{
+    right: -470px;
+    top: 391.03px;
+}
+
+.barra-3{
+    background-color: green;
+    left: -30px;
+    top: 1450px;
+}
+
+.barra-4{
+    background-color: green;
+    left: -30px;
+    top: 1650px;
+}
+
+@media (max-width:800px) {
+    .menu-btn{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn, .btn-red{
+        margin-top: 5px;
+    }
+    
 }

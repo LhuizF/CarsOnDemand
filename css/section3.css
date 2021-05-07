@@ -1,22 +1,30 @@
 .section3 {
-    background-color: #181818;
-    padding: 0 20vw;
+    
+    background-image:url("../component/Sem-Título-1.jpg");
+    background-repeat: no-repeat;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    z-index: 0;
-}
-
-.section3 div{
-    margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 30vw;
-    float: left;
+    justify-content: center;
 }
 
-.section3 img {
+.app-container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-app{
+    text-align: center;
+    max-width: 500px;
+    max-height: 800px;
+    margin: 20px;
+}
+
+.imgStore {
     width: 20vw;
+    margin-top: 20px;
+    min-width: 250px;
 }
 
 .section3 a {
@@ -32,14 +40,18 @@
     color: #f9243e;
     font-size: 40px;
     margin-bottom: 0px;
-    font-size: 2.5vw;
 }
 
 .section3 div p {
-    font-size: 2vw;
+    font-size: 30px;
     color: #fff;
 }
+.appImg{
+    width: 20vw;
+}
 
-.appImg {
-    margin: 40px;
+@media (max-width:1180px) {
+    .appImg{
+        display: none;
+    }
 }
