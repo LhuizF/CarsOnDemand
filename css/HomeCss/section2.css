@@ -58,10 +58,12 @@
 
 .section2 button:hover{
     transform: scale(1.15);
+    
 }
 
 .section2 button:active{
     opacity: 0.8;
+    color: #F9243E;
 }
 
 .name{

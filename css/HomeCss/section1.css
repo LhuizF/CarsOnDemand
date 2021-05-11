@@ -1,6 +1,6 @@
 @font-face {
     font-family: Bicubik;
-    src: url(../component/Bicubik.OTF);
+    src: url(../../component/Bicubik.OTF);
 }
 body{
     margin: 0;
@@ -9,7 +9,7 @@ body{
 }
 
 .section1{
-    background-image:url("../component/background.jpg");
+    background-image:url("../../component/background.jpg");
     width: 100vw;
     height: 500px;
 }

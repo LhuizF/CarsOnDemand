@@ -6,7 +6,7 @@ let autoTime;
 let cars = []
 
 async function Api(){
-    const apiCars = ("./ListCars.json");
+    const apiCars = (".././ListCars.json");
     const Retorn = await fetch(apiCars);
     cars = await Retorn.json();
     display();

@@ -4,7 +4,6 @@
 }
 body{
     background-color: #181818;
-    margin: 0px;
     overflow: hidden;
 }
 main {
@@ -29,6 +28,8 @@ input {
     background-color:#fff;
     color: black;
     font-size: 25px;
+    box-shadow: 10px 10px 5px ;
+    border: none;
 }
 .btn-container {
     display: flex;
@@ -62,4 +63,8 @@ button{
 .barra-2{
     left: -490px;
     top: 725px;
+}
+
+.login-container button i{
+    padding: 0px 5px;
 }

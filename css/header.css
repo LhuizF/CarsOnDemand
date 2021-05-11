@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 header {
     display: flex;
     background-color: #181818;
@@ -30,31 +34,39 @@ header i {
 .btn {
     display: flex;
     align-items: center;
-    margin-left: 2vw;
+    margin-left: 1vw;
     cursor: pointer;
     color: #fff;
-    border-left: 3px solid red;
+    padding: 10px;
+    border-left: 3px solid #f00;
+    
 }
 
 .btn:hover {
-    color: #f00;
+    transition: 0.3s;
+    color: #ff0000;
+    background-color: #ff00003a;
+    border-radius: 15px;
+    border-left: 3px solid rgba(0, 0, 0, 0)
 }
 
 .btn-red, .btn-login {
     color: #fff;
     cursor: pointer;
     margin-left: 1vw;
-    border: #f00 solid 3px;
+    border: 3px solid #f00;
     border-radius: 15px;
     align-items: center;
     display: flex;
-    padding: 4px 8px 4px 0px;
+    padding: 7px;
     font-size: 20px;
     font-family: inherit;
 }
 
 .btn-red:hover, .btn-login:hover {
-    background-color: #f00;
+    color: #ff0000;
+    background-color: #ff00003a;
+    border: 3px solid rgba(0, 0, 0, 0)
 }
 
 a {
@@ -64,7 +76,7 @@ a {
 footer{
     background-color: #181818;
     height: 80px;
-    border-top: 5px solid #f00;
+    border-top: 5px solid #ff0000;
 }
 
 .zapzap{
@@ -105,4 +117,15 @@ footer{
         margin-top: 5px;
     }
     
+}
+
+.pagSelected{
+    color: #ff0000;
+}
+
+.pagSelected-red{
+    color: #ff0000;
+    background-color: #ff00003a;
+    border-radius: 15px;
+    border: 3px solid #f00;
 }
