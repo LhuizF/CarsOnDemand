@@ -107,7 +107,7 @@ footer{
     background-image: url("../component/whatsapp-square-color.png");
 }
 
-@media (max-width:800px) {
+@media (max-width:1035px) {
     .menu-btn{
         flex-direction: column;
         align-items: flex-start;
