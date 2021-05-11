@@ -1,0 +1,56 @@
+.section3 {
+    background-image: url("../../component/background.jpg");
+    background-repeat: no-repeat;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-app {
+    text-align: center;
+    max-width: 500px;
+    max-height: 800px;
+    margin: 20px;
+}
+
+.imgStore {
+    width: 20vw;
+    margin-top: 20px;
+    min-width: 250px;
+}
+
+.section3 a img {
+    margin-bottom: 30px;
+}
+
+.section3 a img:hover {
+    filter: brightness(1.3);
+    transform: scale(1.1);
+}
+
+.section3 div h2 {
+    color: #f9243e;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.section3 div p {
+    font-size: 30px;
+    color: #fff;
+}
+.appImg {
+    width: 20vw;
+}
+
+@media (max-width: 1180px) {
+    .appImg {
+        display: none;
+    }
+}

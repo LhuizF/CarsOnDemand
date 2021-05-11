@@ -1,6 +1,6 @@
 @font-face {
     font-family: Bicubik;
-    src: url(../component/Bicubik.OTF);
+    src: url(../../component/Bicubik.OTF);
 }
 body{
     margin: 0;
@@ -9,10 +9,9 @@ body{
 }
 
 .section1{
-    position: relative;
-    background-color: #181818;
+    background-image:url("../../component/background.jpg");
+    width: 100vw;
     height: 500px;
-    z-index: 0;
 }
 
 .section1 img{
@@ -21,14 +20,27 @@ body{
     position: relative;
     top:100px;
     left: 20vw;
-    min-width: 395px; 
+    min-width: 550px; 
+    z-index: 2;
 }
 
 .section1 h1{
     color: #fff;
     float: right;
     font-family: Bicubik;
-    font-size: 3.6vw;
+    font-size: 60;
     text-align: center;
     margin-right: 20vw;
+    z-index: 2;
+}
+
+@media (max-width:1205px) {
+    .section1 img{
+        display: none;
+    }
+    .section1{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
 }

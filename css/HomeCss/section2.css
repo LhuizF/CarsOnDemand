@@ -1,26 +1,28 @@
 .section2{
-    margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    z-index: -1;
+    margin-top: 20px;
 }
 
-.section2  h1{
+.section2 h1{
     font-size: 60px;
-    color: #000000;
+    color:  #F9243E;
 }
 .showcase-cars{
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .cars{
+    cursor: pointer;
     height: 20vw;
     min-height: 250px;
 }
+
+.cars:hover{
+    transform: scale(1.1);
+}
 .text-container{    
-    /* width: 40vw; */
     min-width: 500px;
 }
 .section2 h2{
@@ -37,6 +39,7 @@
 }
 
 .section2 button{
+    position: absolute;
     cursor: pointer;
     margin: 0 50px;
     border: none;
@@ -45,13 +48,25 @@
     background-color:transparent;
 }
 
+.btnNext{
+    left: 70vw;
+}
+
+.btnPrev{
+    right: 70vw;
+}
+
+.section2 button:hover{
+    transform: scale(1.15);
+    
+}
+
 .section2 button:active{
-    opacity: 1;
+    opacity: 0.8;
+    color: #F9243E;
 }
 
 .name{
     padding: 0px;
     font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
