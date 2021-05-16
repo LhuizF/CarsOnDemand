@@ -11,42 +11,42 @@ header {
 
 .logo{
     width: 70px;
+    margin-left: 20vw;
 }
 .logo img{
-    margin-left: 20vw;
     cursor: pointer;
     width: 70px;
     margin-top: 7px;
 }
 
 .menu-btn {
-    margin-right: 20vw;
     display: flex;
     align-items: center;
     font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 20px;
+    margin-right: 20vw;
 }
 
-header i {
-    padding: 0px 6px;
+.btn i,.btn-red i, .btn-login i{
+    padding: 0px 3px;
 }
 
 .btn {
     display: flex;
     align-items: center;
-    margin-left: 1vw;
+    margin-left: 0.5vw;
     cursor: pointer;
     color: #fff;
-    padding: 10px;
+    padding: 10px 10px;
     border-left: 3px solid #f00;
     
 }
 
 .btn:hover {
-    transition: 0.3s;
+    transition: 0.1s;
     color: #ff0000;
     background-color: #ff00003a;
-    border-radius: 15px;
+    border-radius: 20px;
     border-left: 3px solid rgba(0, 0, 0, 0)
 }
 
@@ -75,8 +75,19 @@ a {
 
 footer{
     background-color: #181818;
-    height: 80px;
     border-top: 5px solid #ff0000;
+    display: flex;
+}
+
+footer p{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #fff;
+    margin: 5px;
+}
+.text-footer{
+    margin: 20px;
+    margin-left: 10vw;
+    
 }
 
 .zapzap{
@@ -107,18 +118,6 @@ footer{
     background-image: url("../component/whatsapp-square-color.png");
 }
 
-@media (max-width:1035px) {
-    .menu-btn{
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 10px 15px;
-    }
-    .btn, .btn-red{
-        margin-top: 5px;
-    }
-    
-}
-
 .pagSelected{
     color: #ff0000;
 }
@@ -128,4 +127,28 @@ footer{
     background-color: #ff00003a;
     border-radius: 15px;
     border: 3px solid #f00;
+}
+
+@media (max-width:1240px){
+    header{
+        justify-content: flex-start;
+    }
+    .menu-btn{
+        margin: 0px;
+    }
+}
+
+@media (max-width:1035px) {
+    header{
+        justify-content: space-around;
+    }
+    .menu-btn{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px 15px;
+    }
+    .btn, .btn-red{
+        margin-top: 5px;
+    }
+    
 }

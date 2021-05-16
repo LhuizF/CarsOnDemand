@@ -22,32 +22,33 @@
 .cars:hover{
     transform: scale(1.1);
 }
-.text-container{    
-    min-width: 500px;
-}
+
 .section2 h2{
     color: #F9243E;
     font-size: 40px;
     margin-bottom: 0px;
-    padding: 0 20vw;
+    margin: 30px 20vw;
 }
 
 .section2 p{
     margin-top: 10px;
     font-size: 30px;
-    padding: 0 20vw;
+    margin: 30px 20vw;
+
 }
 
 .section2 button{
     position: absolute;
     cursor: pointer;
-    margin: 0 50px;
+    margin: 0px;
     border: none;
-    font-size: 50px;
     opacity: 0.3;
     background-color:transparent;
+    margin: 0 30px;
 }
-
+.section2 button i{
+    font-size: 60px;
+}
 .btnNext{
     left: 70vw;
 }

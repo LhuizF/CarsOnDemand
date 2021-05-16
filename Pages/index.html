@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="../css/HomeCss/section4.css">
 
     <link rel="icon" type="img/png" href="../component/Logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Cars OnDemand</title>
 </head>
 
@@ -24,23 +22,24 @@
         <a href="../Pages/index.html" class="logo"><img   src=".././component/Logo.png" title="Início"></a>
 
         <nav class="menu-btn">
-            <a class="btn pagSelected" Id="carros" title="Carros" href="../Pages/index.html"><i class="fas fa-home"></i></i>Início</a>
-            <a class="btn" Id="carros" title="Carros" href="./Cars.html"><i class="fas fa-car"></i>Carros</a>
-            <a class="btn" Id="info" title="Informações" href="./info.html"><i class="fas fa-info"></i>Informações</a>
-            <a class="btn" Id="Login" title="Login" href="./login.html"><i class="fas fa-user"></i>Login</a>
-            <a class="btn-red" Id="Cadastre-se" title="Cadastre-se" href="./cadastre-se.html"><i
-                    class="far fa-arrow-alt-circle-right"></i>Cadastre-se</a>
+            <a class="btn pagSelected" title="Início" href="../Pages/index.html"><i class="material-icons">home</i>Início</a>
+            <a class="btn" title="Carros" href="./Cars.html"><i class="material-icons">directions_car</i>Carros</a>
+            <a class="btn" title="Informações" href="./info.html"><i class="material-icons">help_outline</i>Informações</a>
+            <a class="btn" title="Login" href="./login.html"><i class="material-icons">person</i>Login</a>
+            <a class="btn-red" title="Cadastre-se" href="./cadastre-se.html"><i class="material-icons">person_add</i>Cadastre-se</a>
         </nav>
-
+        
     </header>
 
     <main>
+        <!-- seção 1 -->
 
         <section class="section1">
             <img src=".././component/audi a8.png">
             <h1> Cars<br>On Demand </h1>
-
         </section>
+
+        <!-- seção 2 -->
 
         <section class="section2">
             <!-- display dos carros e pequena info -->
@@ -48,15 +47,15 @@
 
             <!-- display carros -->
             <div class="showcase-cars" id="showcase-cars">
-                <button onclick="exibir('prev')" id="prev-btn" class="btnPrev"><i class="fas fa-arrow-alt-circle-left"></i></button>
+                <button onclick="exibir('prev')" id="prev-btn" class="btnPrev"><i class="material-icons">arrow_back_ios</i></button>
                 <img src="" class="cars" id="cars"> <br>
-                <button onclick="exibir('next')" id="next-btn" class="btnNext"><i class="fas fa-arrow-alt-circle-right"></i></i></i></button>
+                <button onclick="exibir('next')" id="next-btn" class="btnNext"><i class="material-icons">arrow_forward_ios</i></button>
 
             </div>
             <span class="name" id="name"></span>
 
             <!-- Informações sobre sistema de fidelidade -->
-            <div class="text-container">
+            <div>
                 <h2>Faça seu cadastro em nosso site para conhecer o sistema de coins.</h2>
                 <p>Ao alugar um carro com a gente você acumula pontos de fidelidade, a cada XX kms rodados com um dos
                     nossos carros você recebe 1 Ponto que podem ser trocados por vários benefícios com desconto no
@@ -65,43 +64,53 @@
 
         </section>
 
-        <!-- Informações sobre app-->
-        <section class="section3">
+        <!-- seção 3 -->
 
+        <section class="section3">
+            <!-- Informações sobre app-->
             <div class="app-container">
                 <div class="text-app">
                     <h2>Conheça também nosso App.</h2>
                     <p>No aplicativo você tem ainda mais facilidade na hora de alugar um dos nossos carros, com apenas
                         alguns toques na tela você consegue reservar um carro a qualquer hora e de qualquer lugar.</p>
-                    <a href="https://www.apple.com/br/app-store" target="_blank"><img
+                    <a href="https://www.apple.com/br/app-store" target="_blank" title="App Store"><img
                             src=".././component/disponivel-na-app-store-botao.png" alt="" class="imgStore"></a>
-                    <a href="https://play.google.com/store/apps" target="_blank" ><img
+                    <a href="https://play.google.com/store/apps" target="_blank" title="Google Play" ><img
                             src=".././component/disponivel-google-play-badge.png" alt="" class="imgStore"></a>
                 </div>
-                <img class="appImg" id="appImg" src=".././component/smartphone.png" alt="">
+                <img class="appImg" id="appImg" src="../component/App.png" alt="">
             </div>
 
         </section>
 
-        <!-- Informações sobre redes sociais-->
-        <section class="section4">
+        <!-- seção 4 -->
 
+        <section class="section4">
+        <!-- Informações sobre redes sociais-->
             <div>
                 <img src=".././component/Logo.png" alt="" class="logo-bottom">
                 <p>Siga nossas redes sociais e fique por dentro de dicas, eventos e novidades sobre o mundo automotivo.
                 </p>
                 <ul class="iconsSocial">
-                    <li><img src=".././component/twitter.png" alt="twitter"></li>
-                    <li><img src=".././component/instagram.png" alt="instagram"></li>
-                    <li><img src=".././component/facebook.png" alt="Facebook"></li>
+                    <li><img src=".././component/twitter.png" alt="twitter" title="Twitter"></li>
+                    <li><img src=".././component/instagram.png" alt="instagram" title="Instagram"></li>
+                    <li><img src=".././component/facebook.png" alt="Facebook" title="Facebook"></li>
                 </ul>
             </div>
 
         </section>
 
         <div class="zapzap" id="zapzap"></div>
+
+        <!-- roda pé -->
+        
         <footer>
-            <p>&copy;</p>
+            <div class="text-footer"> 
+                <!-- texto tem q ser editado -->
+                <p>&copy; 2021 Cars OnDemand Ltda.</p> 
+                <p>Avenida Bernardo Vasconcelos, n° 377 - Cachoeirinha - CEP: 31.150-000 - Belo Horizonte - MG</p> <!--  endereço fictício -->
+                <p>E-mail: centraldereservas@localiza.com</p> <!--  email fictício -->
+            </div>
         </footer>
     </main>
 

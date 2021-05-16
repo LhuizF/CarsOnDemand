@@ -3,7 +3,6 @@
     src: url(../../component/Bicubik.OTF);
 }
 body{
-    margin: 0;
     background-color: #EAEAEA;
     overflow-x: hidden;
 }
@@ -30,7 +29,7 @@ body{
     margin-top: -150px;
 }
 
-@media (max-width:1030px) {
+@media (max-width:1035px) {
     .section1 img{
         display: none;
     }
