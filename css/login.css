@@ -2,7 +2,7 @@
     font-family: Bicubik;
     src: url(../component/Bicubik.OTF);
 }
-body {
+body{
     background-color: #181818;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@ main {
     justify-content: center;
 }
 
-h1 {
+h1{
     font-family: bicubik;
     color: #fff;
     font-size: 80px;
@@ -31,14 +31,13 @@ input {
     box-shadow: 10px 10px 5px ;
     border: none;
 }
-
 .btn-container {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
 }
 
-button {
+button{
     background-color: rgba(0, 0, 0, 0);
 }
 
