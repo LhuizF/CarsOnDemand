@@ -3,7 +3,6 @@
     src: url(../../component/Bicubik.OTF);
 }
 body{
-    margin: 0;
     background-color: #EAEAEA;
     overflow-x: hidden;
 }
@@ -12,35 +11,29 @@ body{
     background-image:url("../../component/background.jpg");
     width: 100vw;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .section1 img{
     width: 35vw;
     transform: scaleX(-1);
-    position: relative;
-    top:100px;
-    left: 20vw;
-    min-width: 550px; 
-    z-index: 2;
 }
 
 .section1 h1{
     color: #fff;
-    float: right;
     font-family: Bicubik;
     font-size: 60;
     text-align: center;
-    margin-right: 20vw;
-    z-index: 2;
+    margin-top: -150px;
 }
 
-@media (max-width:1205px) {
+@media (max-width:1035px) {
     .section1 img{
         display: none;
     }
-    .section1{
-        align-items: center;
-        display: flex;
-        justify-content: center;
+    .section1 h1{
+        margin-top: 60px;
     }
 }

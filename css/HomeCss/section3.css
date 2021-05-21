@@ -15,15 +15,16 @@
 
 .text-app {
     text-align: center;
-    max-width: 500px;
-    max-height: 800px;
+    width: 30vw;
+    height: 800px;
     margin: 20px;
+    min-width: 352px;
+    max-width: 500px;
 }
 
 .imgStore {
-    width: 20vw;
+    width: 335px;
     margin-top: 20px;
-    min-width: 250px;
 }
 
 .section3 a img {
