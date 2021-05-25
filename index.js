@@ -54,10 +54,10 @@ function exibir(ord) {
 };
 
 function display(){
-    imgNow = cars[carNumber].img
+    let imgNow = cars[carNumber].img
     outputImg.src = imgNow
 
-    nameNow = cars[carNumber].nome
+    let nameNow = cars[carNumber].nome
     outputNome.textContent = nameNow
 };
 

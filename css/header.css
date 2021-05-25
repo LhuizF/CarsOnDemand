@@ -76,7 +76,6 @@ a {
 footer{
     background-color: #181818;
     border-top: 5px solid #ff0000;
-    display: flex;
 }
 
 footer p{
@@ -85,7 +84,7 @@ footer p{
     margin: 5px;
 }
 .text-footer{
-    margin: 20px;
+    padding: 20px;
     margin-left: 10vw;
     
 }
@@ -129,7 +128,7 @@ footer p{
     border: 3px solid #f00;
 }
 
-@media (max-width:1240px){
+@media (max-width:1200px){
     header{
         justify-content: flex-start;
     }
@@ -138,7 +137,7 @@ footer p{
     }
 }
 
-@media (max-width:1035px) {
+@media (max-width:900px) {
     header{
         justify-content: space-around;
     }
