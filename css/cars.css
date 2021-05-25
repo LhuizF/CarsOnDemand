@@ -70,9 +70,8 @@ h1{
     width: 300px;
 }
 
-.icon-arrow{
-    transform: scale(1.6);
-    margin: 5px;
+.btn-info i{
+    font-size: 47px;
 }
 
 ul{
@@ -95,7 +94,7 @@ li{
     z-index: -1px;
     border-radius: 15px;
     display: none;
-    animation: all 2s;
+    
 }
 
 .btn-reserve{
