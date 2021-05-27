@@ -1,14 +1,13 @@
 @font-face {
     font-family: Bicubik;
-    src: url(../../component/Bicubik.OTF);
+    src: url(../../Img/Bicubik.OTF);
 }
 body{
-    background-color: #EAEAEA;
     overflow-x: hidden;
 }
 
 .section1{
-    background-image:url("../../component/background.jpg");
+    background-image:url("../../Img/background.jpg");
     width: 100vw;
     height: 500px;
     display: flex;

@@ -1,18 +1,13 @@
-const carsInfo = document.querySelectorAll(".cars-info") // array de cars
-const arrow = document.querySelectorAll(".icon-arrow"); // array de arrows
-const conts = [];
+const btnCars = document.querySelectorAll(".btn-info"); // array dos buttons
 
-while(conts.length < carsInfo.length){ // adiciona false no array conts ate ficar no tamanho da array cars 
-    conts.push(false)
-};
-
-function expandir(car){
-    const carNunber = car - 1; //número pasasdo como parâmetro - 1 para determinar em  qual container editar  
-    if(conts[carNunber] == false){// se for false na lista consts
-        carsInfo[carNunber].style.display = "block"; arrow[carNunber].style.transform = "rotate(180deg)"; 
-        conts[carNunber] = true
-    } else{
-        carsInfo[carNunber].style.display = "none"; arrow[carNunber].style.transform = "rotate(0deg)";
-        conts[carNunber] = false
-    };
-};
+btnCars.forEach(function (car){// seleciona todos os buttons individualmente  
+    car.addEventListener("click", () =>{ // adiciona um evento de click
+        const infoCar = car.nextElementSibling.classList; //seleciona o primeiro elemento em relação ao button
+        if(!infoCar.contains("open")){// se o elemento selecionado NÃO tiver a class "open" ele adiciona a class "open" e altera a arrow em 180 graus 
+            infoCar.add("open"); car.firstChild.style.transform = "rotate(180deg)"; 
+            
+        }else{// remove a class "open" e reverte a alteração na arrow
+            infoCar.remove("open"); car.firstChild.style.transform = "rotate(0deg)";
+        };
+    })
+})

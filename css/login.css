@@ -1,18 +1,18 @@
 @font-face {
     font-family: Bicubik;
-    src: url(../component/Bicubik.OTF);
+    src: url(../Img/Bicubik.OTF);
 }
 
 body{  
     background-color: #181818;
-    background-image: url(../component/background.jpg);
-    background-position: -150px;
+    
     background-repeat: no-repeat;
 }
 
 main {
     display: flex;
     justify-content: center;
+    background-image: url(../Img/background.jpg);
     height: 80vh;
 }
 
