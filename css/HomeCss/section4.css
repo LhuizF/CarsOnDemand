@@ -20,9 +20,9 @@
     margin: 0px;
 }
 
-.section4 div{
-    margin: 60px 0 20px 0;
-    max-width:830px ;
+.social-container{
+    margin: 40px 0 25px;
+    max-width: 830px;
 }
 
 .iconsSocial{
@@ -33,7 +33,7 @@
     cursor: pointer;
     width: 50px;
     float: right;
-    margin: 10px 5px;
+    padding:5px;
 }
 
 .iconsSocial li img:hover{

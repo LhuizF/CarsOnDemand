@@ -28,7 +28,7 @@ let cars = [
         "id": "car4"
     },
     {
-        "img": ".././component/audi a8.png",
+        "img": ".././Img/audi a8.png",
         "nome": "Audi a8",
         "id": "car5"
     }

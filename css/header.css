@@ -96,7 +96,7 @@ footer p{
     height: 50px;
     bottom: 3vh;
     right: 2vw;
-    background-image: url(../component/whatsapp.png);
+    background-image: url(../Img/whatsapp.png);
     background-size: 50px;
     animation: zap 0.5s infinite;
 }
@@ -114,7 +114,7 @@ footer p{
 }
 
 .zapzap:hover{
-    background-image: url("../component/whatsapp-square-color.png");
+    background-image: url("../Img/whatsapp-square-color.png");
 }
 
 .pagSelected{
