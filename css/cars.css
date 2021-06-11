@@ -11,14 +11,16 @@ main{
     justify-content: center;
     flex-direction: column;
 }
+
 h1{
-    font-family: bicubik;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
     font-size: 80px;
     text-align: center;
     margin-bottom: 20px;
 }
-.cars-group{
+
+.cars-container{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -27,34 +29,60 @@ h1{
     width: 80%;
 }
 
-.cars-container{
+.car{
     background-color: #e5e5e5;
     margin: 30px;
     display: flex;
     flex-direction: column;
     width: 300px;
+    /* min-height: 600px; */
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     justify-content: space-between;
     border: 3px solid #f00;
 }
 
-.cars-container img{
+.car img{
     height: 180px;
 }
 
-.cars-container h6{
+.car h2{
     text-align: center;
     font-size: 40px;
     margin: 0px;
     
 }
-.cars-container span{
-    text-align: center;
-    font-size:20px;
-    margin-bottom: 15px;
+
+.car h3{
+    margin: 5px;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
+hr{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.main_info{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.main_info span{
+    display: inline-flex;
+    background-color: #c4c4c4 ;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17.5px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
 
 .btn-info, .btn-reserve{
     cursor: pointer;
@@ -69,7 +97,6 @@ h1{
     height: 47px;
     font-size: 22px;
     width: 300px;
-    z-index: 2;
 }
 
 .btn-info i{
@@ -77,17 +104,7 @@ h1{
     transition: transform 0.4s ease;
 }
 
-ul{
-    list-style:none;
-    margin: 0;
-    padding: 5px;
-}
-
-li{
-    padding: 3px;
-}
-
-.cars-info{
+.cars-details{
     display: flex;
     justify-content: space-between;
     width: 280px;
@@ -102,13 +119,25 @@ li{
     height: 0;
     overflow: hidden;
     transition: height 0.5s ease-out;
+    z-index: -1;
 }
 
 .open{
     opacity: 1;
-    height: 130px;
+    height: fit-content;
     margin-bottom: 15px;
 }
+
+.details-info{
+    display: flex;
+}
+
+.details-info img{
+    height: 30px;
+    margin-right: 8px;
+    padding: 1px;
+}
+
 
 .btn-reserve{
     background-color: #FF0000;

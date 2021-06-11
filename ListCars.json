@@ -1,27 +1,239 @@
 [
     {
-        "img": "https://static.wixstatic.com/media/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png/v1/fill/w_408,h_253,al_c,q_80,usm_0.66_1.00_0.01/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png",
-        "nome": "Onix joy 1.0 2018",
-        "id": "car1"
+        "name": "Duster",
+        "img" : "https://www.minasfrance.com.br/uploads/products/versions/colors/renault-duster-zen-cvt-preto-nacre.png",
+        "marca" : "Renault",
+        "ano": "2018",
+        "details":{
+            "cor": "Preto",
+            "cambio":"automático",
+            "combustivel":"Gasolina e Álcool",
+            "motor": "1.6",
+            "Portas": "4",
+            "mala": "grande"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
     },
+
     {
-        "img": "https://static.wixstatic.com/media/0a1729_124c40d409b5473f9d89f968a0c4c7eb~mv2.png/v1/crop/x_8,y_0,w_760,h_419/fill/w_450,h_248,al_c,q_85,usm_0.66_1.00_0.01/BrancoGlacier-1.webp",
-        "nome": "Sandero Authetique 1.0 2018",
-        "id": "car2"
+        "name": "Onix",
+        "img" : "https://static.wixstatic.com/media/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png/v1/fill/w_408,h_253,al_c,q_80,usm_0.66_1.00_0.01/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png",
+        "marca" : "Chevrolet",
+        "ano": "2020",
+        "details":{
+            "cor": "Branco",
+            "cambio":"automático",
+            "combustivel":"Gasolina",
+            "motor": "1.0",
+            "Portas": "4",
+            "mala": "media"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
     },
+
     {
-        "img": "https://static.wixstatic.com/media/0a1729_154cf7d34ad749b2b80567a05e44041f~mv2.png/v1/crop/x_0,y_99,w_440,h_242/fill/w_450,h_248,al_c,lg_1,q_85/voyage440.webp",
-        "nome": "Voyage 1.6 trend line 2018",
-        "id": "car3"
+        "name": "Mobi",
+        "img" : "https://grupozucatelli.com.br/fiatzucavel/wp-content/uploads/sites/2/2020/05/Mobi-Like-1.0.png",
+        "marca" : "Fiat",
+        "ano": "2020",
+        "details":{
+            "cor": "Vermelho",
+            "cambio":"manual",
+            "combustivel":"Gasolina",
+            "motor": "1.0",
+            "Portas": "4",
+            "mala": "pequena"
+        },
+        "complement":{
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
     },
+
     {
-        "img": "https://static.wixstatic.com/media/0a1729_40ed1f4746904e1596ffd1fdbf45cc02~mv2.png/v1/crop/x_0,y_64,w_1400,h_772/fill/w_423,h_232,al_c,q_85,usm_0.66_1.00_0.01/69573_1522076091.webp",
-        "nome": "Renault Logan 1.0 Authetique Prata 2018",
-        "id": "car4"
+        "name": "HB20",
+        "img" : "https://static.wixstatic.com/media/ecaeac_67b6d3ea7e9143d2a1013052f7983f41~mv2.png/v1/fill/w_640,h_289,al_c/ecaeac_67b6d3ea7e9143d2a1013052f7983f41~mv2.png",
+        "marca" : "Hyundai",
+        "ano": "2020",
+        "details":{
+            "cor": "Branco",
+            "cambio":"manual",
+            "combustivel":"Gasolina",
+            "motor": "1.6",
+            "Portas": "4",
+            "mala": "media"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
     },
+
     {
-        "img": ".././component/audi a8.png",
-        "nome": "Audi a8",
-        "id": "car5"
+        "name": "Uno",
+        "img" : "https://www.capitalfiat.com.br/assets/uploads/nt_veiculos/09979-principal.png?v=0.3",
+        "marca" : "Fiat",
+        "ano": "2018",
+        "details":{
+            "cor": "Preto",
+            "cambio":"manual",
+            "combustivel":"Gasolina",
+            "motor": "1.0",
+            "Portas": "4",
+            "mala": "pequena"
+        },
+        "complement":{
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png"
+        }
+    },
+
+    {
+        "name": "Amarok",
+        "img" : "https://static.virgola.com.br/images/fd4ae2b6759e8eca4bd706c0b4224c0540dcf6e1f52b054f9d2ecb22cac8009b.png",
+        "marca" : "Volkswagen",
+        "ano": "2019",
+        "details":{
+            "cor": "Prata",
+            "cambio":"automático",
+            "combustivel":"Diesel",
+            "motor": "2.0",
+            "Portas": "4",
+            "mala": "caçamba"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png",
+            "Tração 4x4" : "https://image.flaticon.com/icons/png/512/1464/1464632.png"
+        }
+    },
+
+    {
+        "name": "Toro",
+        "img" : "http://asciafiat.com.br/fotos/toro/Prata-Melfi-1.png",
+        "marca" : "Fiat",
+        "ano": "2019",
+        "details":{
+            "cor": "Prata",
+            "cambio":"automático",
+            "combustivel":"Gasolina e álcool",
+            "motor": "1.8",
+            "Portas": "4",
+            "mala": "caçamba"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
+    },
+
+    {
+        "name": "Corolla",
+        "img" : "https://www.consorciodeautos.com.br/wp-content/plugins/ns_tabelafixa/imagensproduto/103-nm_produto24-02-2017-12-30-09-prF.png",
+        "marca" : "Toyota",
+        "ano": "2019",
+        "details":{
+            "cor": "Branco",
+            "cambio":"automático",
+            "combustivel":"Gasolina e álcool",
+            "motor": "1.8",
+            "Portas": "4",
+            "mala": "grande"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Elétrica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
+    },
+
+    {
+        "name": "Sandero",
+        "img" : "https://static.wixstatic.com/media/0a1729_124c40d409b5473f9d89f968a0c4c7eb~mv2.png/v1/crop/x_8,y_0,w_760,h_419/fill/w_450,h_248,al_c,q_85,usm_0.66_1.00_0.01/BrancoGlacier-1.webp",
+        "marca" : "Renault",
+        "ano": "2018",
+        "details":{
+            "cor": "branco",
+            "cambio":"manual",
+            "combustivel":"Gasolina e álcool",
+            "motor": "1.0",
+            "Portas": "4",
+            "mala": "media"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
+    },
+
+    {
+        "name": "A4",
+        "img" : "https://snipstock.com/assets/cdn/png/0efbb56fbc82c653c245365807b7851e.png",
+        "marca" : "Audi",
+        "ano": "2018",
+        "details":{
+            "cor": "Vermelho",
+            "cambio":"automático",
+            "combustivel":"gasolina",
+            "motor": "2.0",
+            "Portas": "4",
+            "mala": "grande"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
+    },
+
+    {
+        "name": "Logan",
+        "img" : "https://static.wixstatic.com/media/0a1729_40ed1f4746904e1596ffd1fdbf45cc02~mv2.png/v1/crop/x_0,y_64,w_1400,h_772/fill/w_423,h_232,al_c,q_85,usm_0.66_1.00_0.01/69573_1522076091.webp",
+        "marca" : "Renault",
+        "ano": "2018",
+        "details":{
+            "cor": "prata",
+            "cambio":"Manual",
+            "combustivel":"gasolina",
+            "motor": "1.0",
+            "Portas": "4",
+            "mala": "grande"
+        },
+        "complement":{
+            "Ar-condicionado": "https://image.flaticon.com/icons/png/512/1116/1116532.png",
+            "Vidro elétrico": "https://image.flaticon.com/icons/png/512/4404/4404656.png",
+            "Air bag": "https://image.flaticon.com/icons/png/512/1793/1793065.png",
+            "Trava elétrica" : "https://image.flaticon.com/icons/png/512/633/633668.png",
+            "Dir. Hidráulica" : "https://image.flaticon.com/icons/png/512/4868/4868654.png"
+        }
     }
 ]
