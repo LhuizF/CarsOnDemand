@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Bicubik;
+    src: url(../Img/Bicubik.OTF);
+}
+
+body{  
+    background-color: #181818;
+    
+    background-repeat: no-repeat;
+}
+body{
+    background-color: #181818;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    background-image: url(../Img/background.jpg), url(../Img/background-repeat.jpg);
+    background-repeat: no-repeat, repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    padding-top: 65px;
+}
+
+h1{
+    font-family: bicubik;
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.car-container{
+    background-color: #e5e5e5;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    padding: 30px;
+    border: 3px solid #f00;
+}
+
+.car-container img{
+    height: 260px;
+    background-color: white;
+}
+
+.car-container h6{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    
+}
+
+.cars-container span{
+    text-align: center;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+
+
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 5px;
+}
+
+li{
+    padding: 3px;
+}
+
+.car-box {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.car-info{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    background-color: #C4C4C4;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.input-box {
+    display: flex;
+    margin: 10px;
+}
+
+.car-input {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    background-color: #c4c4c4;
+    border-radius: 12px;
+}
+
+.data {
+    height: 20px;
+    margin: 10px;
+}
+
+.hora {
+    height: 20px;
+    margin: 10px;
+}
+
+.localização {
+    height: 30px;
+    margin: 10px;
+}
+
+input {
+    border-radius: 3px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.teste {
+    width: 400px;
+}
+
+.botoes button {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.botoes button i {
+    padding: 0px 5px;
+}
+    
+
+
+
+
+
+
+
+
