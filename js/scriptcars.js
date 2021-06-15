@@ -1,7 +1,24 @@
+const loadingGif = document.querySelector(".loading")
+const btnMore = document.querySelector(".btn-more")
+const carsContainer = document.querySelector(".cars-container")
+
+function loading() {
+    loadingGif.hidden = false
+    btnMore.hidden = true
+    carsContainer.classList.add("cars-container-loading")
+}
+function loadComplete() {
+    loadingGif.hidden = true
+    btnMore.hidden = false
+    carsContainer.classList.remove("cars-container-loading")
+}
+
 async function getApi(){
-    const url = "https://jsonkeeper.com/b/Y1YL"
-    const api = await fetch(".././ListCars.json");
+    loading()
+    const url = ("https://api.jsonbin.io/b/60c80298b274176a77e812d1");
+    const api = await fetch(url);
     const carsApi = await api.json();
+    loadComplete()
     createElement(carsApi)
 }
 
@@ -32,7 +49,7 @@ function createElement(carsApi){
                 <button class="btn-reserve">RESERVAR AGORA</button>
             </div>
         </div>`
-        document.querySelector(".cars-container").innerHTML += car;
+        carsContainer.innerHTML += car;
 
         const listInfo = document.createElement("div");
         const divInfo = document.querySelectorAll(".main_info");
@@ -72,9 +89,9 @@ function createElement(carsApi){
 
     }
 
-    const btnCars = document.querySelectorAll(".btn-info");         // array dos buttons
+    const btnCarsDetails = document.querySelectorAll(".btn-info");         // array dos buttons
 
-    btnCars.forEach(function (car){                                 // seleciona todos os buttons individualmente  
+    btnCarsDetails.forEach((car) =>{                                 // seleciona todos os buttons individualmente  
         car.addEventListener("click", () =>{                        // adiciona um evento de click
             const infoCar = car.nextElementSibling.classList;       //seleciona o primeiro elemento em relação ao button
             if(!infoCar.contains("open")){                          // se o elemento selecionado NÃO tiver a class "open" ele adiciona a class "open" e altera a arrow em 180 graus 
@@ -84,6 +101,16 @@ function createElement(carsApi){
                 infoCar.remove("open"); car.firstChild.style.transform = "rotate(0deg)";
             };
         })
+    })
+
+    const btnCar = document.querySelectorAll(".btn-reserve")
+
+    btnCar.forEach((car, i) =>{
+        car.addEventListener("click", ()=>{
+            if(i === 1){
+                window.location.href = "./item1.html"
+            }
+        });
     })
 }
 

@@ -2,6 +2,7 @@ body{
     background-color: #181818;
     overflow-y: auto;
     overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 li {
@@ -9,7 +10,6 @@ li {
 }
 
 h1{
-  font-family: bicubik;
   color: #fff;
   font-size: 80px;
   text-align: center;

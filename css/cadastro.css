@@ -1,11 +1,6 @@
-@font-face {
-    font-family: Bicubik;
-    src: url(../component/Bicubik.OTF);
-}
 body {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #181818;
-    
     background-position: -250px;
     background-repeat: no-repeat;
 }
@@ -35,11 +30,10 @@ input {
     height: 80vh;
     align-items: center;
     flex-direction: column;
-    margin-top: 130px;
+    margin-bottom: 170px;
 }
 
 .text-cadastre-se {
-    font-family: bicubik;
     color: #fff;
     font-size: 80px;
     display: flex;
@@ -49,7 +43,6 @@ input {
 
 .text-dados-pessoais {
     position: relative;
-    font-family: bicubik;
     color: #f00;
     font-size: 25px;
 }
@@ -57,8 +50,7 @@ input {
 .text-endereço {
     position: relative;
     top: 400px;
-    right: 255px;
-    font-family: bicubik;
+    right: 178px;
     color: #f00;
     font-size: 25px;
 }
@@ -70,13 +62,15 @@ input {
 }
 
 .btn-finalizar {
-    background-color: #141414;
+    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
-    padding: 8px 20px 10px 8px;
-    border: #f00 solid 3px;
+    padding: 7px 9px;
+    border: 3px solid #f00  ;
     border-radius: 50px;
     font-size: 20px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .btn-finalizar:hover {
@@ -177,6 +171,5 @@ input {
 
 .número {
     width: 260px;
-
     background-color: #fff;
 }
