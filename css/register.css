@@ -1,0 +1,45 @@
+h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    margin: 30px 0 ;
+}
+
+.red-container{
+    width: 80vw;
+    max-width: 1000px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #f00;
+    margin:0;
+}
+
+.data-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-100{
+    width: 100%;
+}
+
+.input-50{
+    width: 48%;
+}
+
+.input-40{
+    width: 42%;
+}
+
+.input-10{
+    width: 10%
+}
+
+@media (max-width:400px){
+    .input-50{
+        width: 100%;
+    }
+}

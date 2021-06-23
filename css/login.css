@@ -1,35 +1,9 @@
-@font-face {
-    font-family: Bicubik;
-    src: url(../Img/Bicubik.OTF);
-}
-
-body{  
-    background-color: #181818;
-    background-repeat: no-repeat;
-}
 
 main {
-    display: flex;
-    justify-content: center;
-    background-image: url(../Img/background.jpg);
     height: 80vh;
 }
 
-form{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-.login-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 13vh;
-    padding: 20px;
-    border:2px solid #f00;
-    height: 300px;
-}
-
-.login-container h1{
+.red-container h1{
     font-family: bicubik;
     color: #fff;
     font-size: 80px;
@@ -37,31 +11,16 @@ form{
     margin:0px;
 }
 
-.login-container a{
+.red-container a{
     padding: 10px;
     font-size: 22px;
     color: #1B95E0;
     cursor: pointer;
 }
 
-.login-container input {
-    width: 80vw;
-    height: 44px;
-    max-width: 528px;
-    margin-top: 25px;
-    background-color:#fff;
-    color: black;
-    font-size: 25px;
-    box-shadow: 10px 10px 5px;
-    border: none;
-}
-
-
 .btn-container{
-    display: flex;
     justify-content: space-between;
 }
-
 
 .btn-container p{
     font-family: inherit;
@@ -69,29 +28,16 @@ form{
     font-size: 20px;
 }
 
-.btn-container button{
-    margin: 20px 0px 10px;
-    background-color: rgba(0, 0, 0, 0);
-    width: 110px;
-}
-
-.btn-container button i{
-    padding: 0px 5px;
-}
-
-.register-container{
-    margin-top: 10px;
-    border:2px solid #f00;
-    padding: 20px;
-}
-
-.register-container p{
+.red-container p{
     color: #fff;
     font-family: inherit;
     font-size: 30px;
     margin: 0px;
 }
-.register-container a{
+
+.red-container a{
     color: #1B95E0;
     cursor: pointer;
+    font-size: 30px;
+    padding: 0px;
 }

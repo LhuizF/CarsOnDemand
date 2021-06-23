@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main-style.css">
     <link rel="stylesheet" href="../css/cars.css">
 
-    <link rel="icon" type="img/png" href="../Img/Logo.png">
+    <link rel="icon" type="img/png" href="../static/img/Logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Carros | Cars OnDemand</title>
 </head>
@@ -17,19 +17,25 @@
 <body>
     <header>
 
-        <a href="../Pages/index.html" class="logo"><img src=".././Img/Logo.png" title="Início"></a>
+        <a href="../Pages/home.html" class="logo"><img   src="../static/img/Logo.png" title="Início"></a>
 
-        <nav class="menu-btn">
-            <a class="btn" title="Início" href="../Pages/index.html"><i class="material-icons">home</i>Início</a>
-            <a class="btn pagSelected" title="Carros" href="./Cars.html"><i class="material-icons">directions_car</i>Carros</a>
-            <a class="btn" title="Informações" href="./info.html"><i class="material-icons">help_outline</i>Informações</a>
-            <a class="btn" title="Login" href="./login.html"><i class="material-icons">person</i>Login</a>
-            <a class="btn-red" title="Cadastre-se" href="./cadastre-se.html"><i class="material-icons">person_add</i>Cadastre-se</a>
+        <nav class="main-menu">
+            <div class=" menu-btn-icon"><i class="material-icons"> menu</i></div>
+            <div class="menu-btn">
+                <a class="btn" title="Início" href="../pages/home.html"><i class="material-icons">home</i>Início</a>
+                <a class="btn pagSelected" title="Carros" href="./cars.html"><i class="material-icons">directions_car</i>Carros</a>
+                <a class="btn" title="Informações" href="./info.html"><i class="material-icons">help_outline</i>Informações</a>
+                <a class="btn" title="Login" href="./login.html"><i class="material-icons">person</i>Login</a>
+                <div class="register-container">
+                    <a class="main-btn" title="Cadastre-se" href="./register.html"><i class="material-icons">person_add</i>Cadastre-se</a>
+                </div>
+            </div>
         </nav>
 
     </header>
+    
     <main>
-        <h1>Carros</h1>
+        <h1>CARROS</h1>
         
         <div class="cars-container">
             <div class="loading"></div>
@@ -39,13 +45,14 @@
     </main>
     <footer>
         <div class="text-footer"> 
-            <!-- texto tem q ser editado -->
             <p>&copy; 2021 Cars OnDemand Ltda.</p> 
-            <p>Avenida Barão do Rio Branco, n° 000 - Centro - CEP:  36045-120 - Juiz de Fora- MG</p> <!--  endereço fictício -->
-            <p>E-mail: carsondemand@email.com</p> <!--  email fictício -->
+            <p>Avenida Barão do Rio Branco, n° 000 - Centro - CEP:  36045-120 - Juiz de Fora- MG</p> 
+            <p>E-mail: carsondemand@email.com</p>
         </div>
     </footer>
+    
     <script src=".././js/scriptcars.js"></script>
+    <script src=".././js/nav-bar.js"></script>
 </body>
 
 </html>

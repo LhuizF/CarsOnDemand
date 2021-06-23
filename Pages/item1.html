@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main-style.css">
     <link rel="stylesheet" href="../css/item1.css">
 
-    <link rel="icon" type="img/png" href="../Img/Logo.png">
+    <link rel="icon" type="img/png" href="../static/img/Logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>ONIX | Cars OnDemand</title>
 </head>
@@ -17,74 +17,81 @@
 <body>
     <header>
 
-        <a href="../Pages/index.html" class="logo"><img src=".././Img/Logo.png" title="Início"></a>
+        <a href="../pages/home.html" class="logo"><img   src="../static/img/Logo.png" title="Início"></a>
 
-        <nav class="menu-btn">
-            <a class="btn" title="Início" href="../Pages/index.html"><i class="material-icons">home</i>Início</a>
-            <a class="btn pagSelected" title="Carros" href="./Cars.html"><i class="material-icons">directions_car</i>Carros</a>
-            <a class="btn" title="Informações" href="./info.html"><i class="material-icons">help_outline</i>Informações</a>
-            <a class="btn" title="Login" href="./login.html"><i class="material-icons">person</i>Login</a>
-            <a class="btn-red" title="Cadastre-se" href="./cadastre-se.html"><i class="material-icons">person_add</i>Cadastre-se</a>
+        <nav class="main-menu">
+            <div class=" menu-btn-icon"><i class="material-icons"> menu</i></div>
+            <div class="menu-btn">
+                <a class="btn" title="Início" href="../pages/home.html"><i class="material-icons">home</i>Início</a>
+                <a class="btn" title="Carros" href="./cars.html"><i class="material-icons">directions_car</i>Carros</a>
+                <a class="btn" title="Informações" href="./info.html"><i class="material-icons">help_outline</i>Informações</a>
+                <a class="btn" title="Login" href="./login.html"><i class="material-icons">person</i>Login</a>
+                <div class="register-container">
+                    <a class="main-btn" title="Cadastre-se" href="./register.html"><i class="material-icons">person_add</i>Cadastre-se</a>
+                </div>
+            </div>
         </nav>
 
     </header>
-    <!-- carro numero 1 -->
-<main>
-    <div class="car-container">
-        <img src="https://static.wixstatic.com/media/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png/v1/fill/w_408,h_253,al_c,q_80,usm_0.66_1.00_0.01/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png" alt="">
-        <h6>ONIX</h6>
- 
-            <div class="info">
-                
-                <div class="car-details">
-                    <div class="details-info">
-                        <img src="https://image.flaticon.com/icons/png/512/1116/1116532.png">
-                        <span>Ar-condicionado</span>
+
+    <main>
+
+        <div class="car-container">
+            <img src="https://static.wixstatic.com/media/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png/v1/fill/w_408,h_253,al_c,q_80,usm_0.66_1.00_0.01/0a1729_89ab724db89a4de694b52ae7b58035a6~mv2.png" alt="" class="main-car">
+            <h6>ONIX</h6>
+
+                <div class="info">
+                    
+                    <div class="car-details">
+                        <div class="details-info">
+                            <img src="https://image.flaticon.com/icons/png/512/1116/1116532.png">
+                            <span>Ar-condicionado</span>
+                        </div>
+
+                        <div class="details-info">
+                            <img src="https://image.flaticon.com/icons/png/512/4404/4404656.png">
+                            <span>Vidro elétrico</span>
+                        </div>
+
+                        <div class="details-info">
+                            <img src="https://image.flaticon.com/icons/png/512/1793/1793065.png">
+                            <span>Air bag</span>
+                        </div>
+
+                        <div class="details-info">
+                            <img src="https://image.flaticon.com/icons/png/512/633/633668.png">
+                            <span>Trava elétrica</span>
+                        </div>
+                        <div class="details-info">
+                            <img src="https://image.flaticon.com/icons/png/512/4868/4868654.png">
+                            <span>Dir. Hidráulica</span>
+                        </div>
                     </div>
 
-                    <div class="details-info">
-                        <img src="https://image.flaticon.com/icons/png/512/4404/4404656.png">
-                        <span>Vidro elétrico</span>
+                    <div class="car-input">
+                        <input class="input-little" type="text" placeholder="Data" required>
+                        <input class="input-little" type="text" placeholder="Hora" required>
+                        <textarea class="input-localization"  placeholder="Localização" required></textarea>
                     </div>
-
-                    <div class="details-info">
-                        <img src="https://image.flaticon.com/icons/png/512/1793/1793065.png">
-                        <span>Air bag</span>
-                    </div>
-
-                    <div class="details-info">
-                        <img src="https://image.flaticon.com/icons/png/512/633/633668.png">
-                        <span>Trava elétrica</span>
-                    </div>
-                    <div class="details-info">
-                        <img src="https://image.flaticon.com/icons/png/512/4868/4868654.png">
-                        <span>Dir. Hidráulica</span>
-                    </div>
+                    
                 </div>
 
-                <div class="car-input">
-                    <input class="input-little" type="text" placeholder="Data" required>
-                    <input class="input-little" type="text" placeholder="Hora" required>
-                    <textarea class="input-localization"  placeholder="Localização" required></textarea>
-                </div>
-                
+
+            <div class="btn-container">
+                <a href="./Cars.html" class="main-btn" title="Cancelar" style="color: #000;">Cancelar</a>
+                <a href=""class="main-btn" title="Confirmar"  style="color: #000;">Confirmar</a>
             </div>
-
-
-        <div class="btn-container">
-            <a href="./Cars.html"><button class="btn-car" title="Cancelar">Cancelar</button></a>
-            <button class="btn-car" title="Confirmar">Confirmar</button>
         </div>
-    </div>
-</main>
-</body>
+    </main>
 
     <footer>
         <div class="text-footer"> 
-            <!-- texto tem q ser editado -->
             <p>&copy; 2021 Cars OnDemand Ltda.</p> 
-            <p>Avenida Barão do Rio Branco, n° 000 - Centro - CEP:  36045-120 - Juiz de Fora- MG</p> <!--  endereço fictício -->
-            <p>E-mail: carsondemand@email.com</p> <!--  email fictício -->
-        </div>
+            <p>Avenida Barão do Rio Branco, n° 000 - Centro - CEP:  36045-120 - Juiz de Fora- MG</p> 
+            <p>E-mail: carsondemand@email.com</p>
     </footer>
+    
+    <script src=".././js/nav-bar.js"></script>
+</body>
+
 </html>

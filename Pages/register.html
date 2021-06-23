@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/main-style.css">
+    <link rel="stylesheet" href="../css/register.css">
+
+    <link rel="icon" type="img/png" href="../static/img/Logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Cadastre-se | Cars OnDemand</title>
+</head>
+
+<body>
+    <header>
+
+        <a href="../pages/home.html" class="logo"><img   src="../static/img/Logo.png" title="Início"></a>
+
+        <nav class="main-menu">
+            <div class=" menu-btn-icon"><i class="material-icons"> menu</i></div>
+            <div class="menu-btn">
+                <a class="btn" title="Início" href="../pages/home.html"><i class="material-icons">home</i>Início</a>
+                <a class="btn" title="Carros" href="./cars.html"><i class="material-icons">directions_car</i>Carros</a>
+                <a class="btn" title="Informações" href="./info.html"><i class="material-icons">help_outline</i>Informações</a>
+                <a class="btn" title="Login" href="./login.html"><i class="material-icons">person</i>Login</a>
+                <div class="register-container">
+                    <a class="main-btn pagSelected" title="Cadastre-se" href="./register.html"><i class="material-icons">person_add</i>Cadastre-se</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <form>
+            <h1>Cadastre-se</h1>
+            <div class="red-container" >
+
+                <h2 class="text-dados-pessoais">DADOS PESSOAIS</h2>
+                <div class="data-container">
+                    
+                    <input class="input-100" type="text" placeholder="Nome" required>
+                    <input class="input-100" type="email" placeholder="Email" required>
+                    <input class="input-50" type="password" placeholder="Senha" required>
+                    <input class="input-50" type="password" placeholder="Confirme a senha" required>
+                    <input class="input-50" type="number" placeholder="CPF" required>
+                    <input class="input-50" type="number" placeholder="CNH" required>
+                    <input class="input-50" type="date" placeholder="Data de nascimento" required>
+                    <input class="input-50" type="text" placeholder="Telefone" required>
+                </div>
+
+                <h2 class="text-endereço" style="margin-top: 25px;">ENDEREÇO</h2>
+                <div class="data-container">
+                    
+                    <input class="input-50" type="text" placeholder="País" required>
+                    <input class="input-50" type="number" placeholder="CEP" required>
+                    <input class="input-50" type="text" placeholder="Estado" required>
+                    <input class="input-50" type="text" placeholder="Cidade" required>
+                    <input class="input-40" type="text" placeholder="Bairro" required>
+                    <input class="input-40" type="text" placeholder="Endereço" required>
+                    <input class="input-10" type="number" placeholder="N°" required>
+
+                </div>
+                <!-- Refazer XXX -->
+
+                <div class="btn-container">
+                    <button class="main-btn" title="Finalizar Cadastro"><i class="material-icons">done</i>Finalizar Cadastro</a>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="text-footer"> 
+            <p>&copy; 2021 Cars OnDemand Ltda.</p> 
+            <p>Avenida Barão do Rio Branco, n° 000 - Centro - CEP:  36045-120 - Juiz de Fora- MG</p> 
+            <p>E-mail:carsondemand@email.com</p>
+        </div>
+    </footer>
+
+    <script src=".././js/nav-bar.js"></script>
+</body>
+
+</html>
